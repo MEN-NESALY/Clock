@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: salmon;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  border: solid 2px slategrey;
+  background-color: slategray;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: relative;
+}
+
+img {
+  width: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 60px;
+  z-index: 2;
+}
+
+.numbers {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: salmon;
+}
+.twelve {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 30px;
+}
+
+.three {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 95%;
+}
+
+.six {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -30px;
+}
+
+.nine {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 5%;
+}
