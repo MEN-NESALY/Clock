@@ -53,7 +53,7 @@ img {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: -30px;
+  bottom: -40px;
 }
 
 .nine {
@@ -63,6 +63,14 @@ img {
   left: 5%;
 }
 
+.myname {
+  position: absolute;
+  font-size: 0.33em;
+  left: 20%;
+  transform: translate(-50%);
+  top: 370px;
+  transform: rotate(35deg);
+}
 .arrows {
   display: flex;
   width: 100%;
@@ -95,10 +103,11 @@ img {
 .arrows .hour {
   height: 120px;
   transform: rotate(30deg);
+  background-color: #333;
 }
 
 .arrows .second {
-  height: 175px;
+  height: 185px;
   background-color: salmon;
   transform: rotate(300deg);
 }
