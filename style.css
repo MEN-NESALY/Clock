@@ -32,7 +32,7 @@ img {
 .numbers {
   font-size: 2.5em;
   font-weight: bold;
-  color: whitesmoke;
+  color: #006039;
   font-family: "Orbitron", serif;
 }
 .twelve {
@@ -70,6 +70,9 @@ img {
   transform: translate(-50%);
   top: 370px;
   transform: rotate(35deg);
+  color: #006039;
+  border-top: solid 5px #a37e2c;
+  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.7);
 }
 .arrows {
   display: flex;
@@ -84,7 +87,7 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: darkgreen;
+  background-color: #a37e2c;
   z-index: 100;
 }
 
@@ -108,6 +111,6 @@ img {
 
 .arrows .second {
   height: 185px;
-  background-color: salmon;
+  background-color: #006039;
   transform: rotate(300deg);
 }
